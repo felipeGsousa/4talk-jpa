@@ -1,0 +1,60 @@
+[EL Fine]: server: 2021-09-21 18:11:42.606--Thread(Thread[AWT-EventQueue-0,6,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2021-09-21 18:11:42.768--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Mensagem] is set to [FIELD].
+[EL Config]: metadata: 2021-09-21 18:11:42.787--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to one mapping element [field criador] is being defaulted to: class modelo.Usuario.
+[EL Config]: metadata: 2021-09-21 18:11:42.787--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Log] is set to [FIELD].
+[EL Config]: metadata: 2021-09-21 18:11:42.788--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Usuario] is set to [FIELD].
+[EL Config]: metadata: 2021-09-21 18:11:42.789--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The element [field mensagens] is being defaulted to a one to many mapping.
+[EL Config]: metadata: 2021-09-21 18:11:42.792--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the one to many mapping element [field mensagens] is being defaulted to: class modelo.Mensagem.
+[EL Config]: metadata: 2021-09-21 18:11:42.793--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Administrador] is set to [FIELD].
+[EL Config]: metadata: 2021-09-21 18:11:42.793--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Mensagem] is being defaulted to: Mensagem.
+[EL Config]: metadata: 2021-09-21 18:11:42.795--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Mensagem] is being defaulted to: MENSAGEM.
+[EL Config]: metadata: 2021-09-21 18:11:42.808--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [texto] is being defaulted to: TEXTO.
+[EL Config]: metadata: 2021-09-21 18:11:42.809--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.81--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [datahora] is being defaulted to: DATAHORA.
+[EL Config]: metadata: 2021-09-21 18:11:42.81--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Log] is being defaulted to: Log.
+[EL Config]: metadata: 2021-09-21 18:11:42.81--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Log] is being defaulted to: LOG.
+[EL Config]: metadata: 2021-09-21 18:11:42.81--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-09-21 18:11:42.81--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.811--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [datahora] is being defaulted to: DATAHORA.
+[EL Config]: metadata: 2021-09-21 18:11:42.811--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Administrador] is being defaulted to: Administrador.
+[EL Config]: metadata: 2021-09-21 18:11:42.811--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Usuario] is being defaulted to: Usuario.
+[EL Config]: metadata: 2021-09-21 18:11:42.811--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Usuario] is being defaulted to: USUARIO.
+[EL Config]: metadata: 2021-09-21 18:11:42.811--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nomesenha] is being defaulted to: NOMESENHA.
+[EL Config]: metadata: 2021-09-21 18:11:42.811--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [ativo] is being defaulted to: ATIVO.
+[EL Config]: metadata: 2021-09-21 18:11:42.812--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.814--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The discriminator column name for the root inheritance class [modelo.Usuario] is being defaulted to: DTYPE.
+[EL Config]: metadata: 2021-09-21 18:11:42.815--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2021-09-21 18:11:42.827--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field criador] is being defaulted to: ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.827--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The foreign key column name for the mapping element [criador] is being defaulted to: CRIADOR_ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.847--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The join table name for the many to many mapping [field mensagens] is being defaulted to: USUARIO_MENSAGEM.
+[EL Config]: metadata: 2021-09-21 18:11:42.847--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The source primary key column name for the many to many mapping [field mensagens] is being defaulted to: ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.847--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The source foreign key column name for the many to many mapping [mensagens] is being defaulted to: Usuario_ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.847--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The target primary key column name for the many to many mapping [field mensagens] is being defaulted to: ID.
+[EL Config]: metadata: 2021-09-21 18:11:42.848--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--The target foreign key column name for the many to many mapping [mensagens] is being defaulted to: mensagens_ID.
+[EL Info]: 2021-09-21 18:11:42.928--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+[EL Fine]: connection: 2021-09-21 18:11:43.319--Thread(Thread[AWT-EventQueue-0,6,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Fine]: connection: 2021-09-21 18:11:43.326--ServerSession(1840648065)--Connection(2026767049)--Thread(Thread[AWT-EventQueue-0,6,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres0"
+	datasource URL=> "jdbc:postgresql://localhost:5432/4talk"
+))
+[EL Config]: connection: 2021-09-21 18:11:43.448--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--Connected: jdbc:postgresql://localhost:5432/4talk
+	User: postgres0
+	Database: PostgreSQL  Version: 13.2
+	Driver: PostgreSQL JDBC Driver  Version: 42.2.19
+[EL Fine]: connection: 2021-09-21 18:11:43.479--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/C:/Users/ooo/Desktop/projeto2(jpa)/4Talk-jpa/target/classes/_eclipselink-postgres_url=jdbc:postgresql://localhost:5432/4talk login successful
+[EL Fine]: sql: 2021-09-21 18:11:43.517--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--CREATE TABLE MENSAGEM (ID  SERIAL NOT NULL, DATAHORA VARCHAR(255), TEXTO VARCHAR(255), CRIADOR_ID INTEGER, PRIMARY KEY (ID))
+[EL Fine]: sql: 2021-09-21 18:11:43.645--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--CREATE TABLE USUARIO (ID  SERIAL NOT NULL, DTYPE VARCHAR(31), ATIVO BOOLEAN, NOMESENHA VARCHAR(255), EMAIL VARCHAR(255), PRIMARY KEY (ID))
+[EL Fine]: sql: 2021-09-21 18:11:43.752--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--CREATE TABLE LOG (ID  SERIAL NOT NULL, DATAHORA VARCHAR(255), NOME VARCHAR(255), PRIMARY KEY (ID))
+[EL Fine]: sql: 2021-09-21 18:11:43.852--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--CREATE TABLE USUARIO_MENSAGEM (Usuario_ID INTEGER NOT NULL, mensagens_ID INTEGER NOT NULL, PRIMARY KEY (Usuario_ID, mensagens_ID))
+[EL Fine]: sql: 2021-09-21 18:11:43.912--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--ALTER TABLE MENSAGEM ADD CONSTRAINT FK_MENSAGEM_CRIADOR_ID FOREIGN KEY (CRIADOR_ID) REFERENCES USUARIO (ID)
+[EL Fine]: sql: 2021-09-21 18:11:43.949--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--ALTER TABLE USUARIO_MENSAGEM ADD CONSTRAINT FK_USUARIO_MENSAGEM_Usuario_ID FOREIGN KEY (Usuario_ID) REFERENCES USUARIO (ID)
+[EL Fine]: sql: 2021-09-21 18:11:43.951--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--ALTER TABLE USUARIO_MENSAGEM ADD CONSTRAINT FK_USUARIO_MENSAGEM_mensagens_ID FOREIGN KEY (mensagens_ID) REFERENCES MENSAGEM (ID)
+[EL Fine]: sql: 2021-09-21 18:11:44.111--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, ATIVO, NOMESENHA, EMAIL FROM USUARIO WHERE (NOMESENHA = ?)
+	bind => [admin/123]
+[EL Fine]: sql: 2021-09-21 18:11:44.12--ClientSession(2112153616)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO USUARIO (ATIVO, EMAIL, NOMESENHA, DTYPE) VALUES (?, ?, ?, ?)
+	bind => [true, seuemail@gmail.com, admin/123, Administrador]
+[EL Fine]: sql: 2021-09-21 18:11:44.122--ClientSession(2112153616)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: connection: 2021-09-21 18:11:46.555--ServerSession(1840648065)--Connection(1805956730)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect
+[EL Fine]: connection: 2021-09-21 18:11:46.555--ServerSession(1840648065)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/C:/Users/ooo/Desktop/projeto2(jpa)/4Talk-jpa/target/classes/_eclipselink-postgres_url=jdbc:postgresql://localhost:5432/4talk logout successful
+[EL Fine]: connection: 2021-09-21 18:11:46.555--ServerSession(1840648065)--Connection(2026767049)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect
